@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello!
+
+This was a technical test for Kogan. 
+
+Nothing too special here. Follow the instructions below to get up and running. 
+
+I have added in comments (that would otherwise not make it to production) in order to explain some of my reasoning. 
+
+This was time boxed to two and half hours. 
 
 ## Available Scripts
 
