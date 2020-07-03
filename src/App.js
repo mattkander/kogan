@@ -1,4 +1,5 @@
 import React from 'react';
+import AirconCalulator from './components/airconCalculator/AirconCalculator';
 import logo from './logo.svg';
 import './App.css';
 
@@ -7,18 +8,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>
+          Kogan Technical Test
+        </h1>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://youtube.com/c/mattkander"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          LIKE AND SUBSCRIBE
         </a>
       </header>
+      <AirconCalulator />
     </div>
   );
 }

@@ -1,0 +1,18 @@
+.Calculate-button {
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 48px;
+}
+
+.Calculate-button:hover {
+  cursor: pointer;
+}
+
+.Calculate-result{
+  font-size: 50px;
+}
