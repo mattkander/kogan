@@ -65,7 +65,10 @@ class AirconCalulator extends React.Component {
       <div>
         <p>Average aircon cubic volume is: </p>
         <p className="Calculate-result">{this.state.totalAirconCubicWeight }</p>
+        <div className="Button-container">
         <button className="Calculate-button" onClick={this.calculateCubicWeightOfAircons}>Calculate </button>
+        <button className="Calculate-button" onClick={this.calculateCubicWeightOfAircons}>Reset </button>
+        </div>
       </div>
     )
   }
