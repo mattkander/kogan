@@ -9,6 +9,9 @@ class AirconCalulator extends React.Component {
     }
   }
 
+  resetTotal = () => {
+    this.setState({totalAirconCubicWeight: 0})
+  }
 
   calculateAverageCubicWeight = items => {
     const numberOfItems = items.length;
@@ -67,7 +70,7 @@ class AirconCalulator extends React.Component {
         <p className="Calculate-result">{this.state.totalAirconCubicWeight }</p>
         <div className="Button-container">
         <button className="Calculate-button" onClick={this.calculateCubicWeightOfAircons}>Calculate </button>
-        <button className="Calculate-button" onClick={this.calculateCubicWeightOfAircons}>Reset </button>
+        <button className="Calculate-button" onClick={this.resetTotal}>Reset </button>
         </div>
       </div>
     )

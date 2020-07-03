@@ -8,9 +8,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Kogan Technical Test
-        </h1>
         <a
           className="App-link"
           href="https://youtube.com/c/mattkander"
